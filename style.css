@@ -1,0 +1,161 @@
+body {
+    padding: 0!important;
+    margin: 0 !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ml {
+    margin-left: 150px;
+}
+
+.break {
+    margin: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#header {
+    background-color: #fff;
+    height: 80px;
+    position: relative;
+}
+
+.header-wrapper {
+    top: 20px;
+    height: 40px;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+#header .logo {
+    margin-right: 50px;
+    height: 40px;
+    align-items: center;
+}
+
+#header .nav {
+    line-height: 40px;
+    margin-left: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+#header .nav:hover {
+    color: #ff3048;
+}
+
+#banner img {
+    max-width: 100%;
+}
+
+#content {
+    max-width: 1200px;
+}
+
+#content .header {
+    position: relative;
+    font-size: 28px;
+    margin: 20px 0 12px 0;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+}
+
+#content .list-item {
+    display: flex;
+    padding-left: 0;
+}
+
+#content .list-item .item {
+    margin: 20px;
+    text-align: center;
+    display: inline;
+}
+
+#content .list-item .item img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+#content .list-item .item .title {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#content .list-item .item .title:hover {
+    color: #ff3048;
+}
+
+.price {
+    margin-top: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.price-old {
+    color: #666;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+#footer {
+    text-align: center;
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+/* ----------PAGE IPHONE 6---------- */
+
+#content2 {
+    display: flex;
+}
+
+#content2 .item {
+    margin: 20px;
+    flex-basis: 50%;
+}
+
+#content2 .item .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#content2 .item .info {
+    margin: 20px 0;
+}
+
+.biggest {
+    font-size: 28px;
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+.btn {
+    padding: 8px 40px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-buy {
+    background-color: #ff3048;
+    color: #fff;
+}
+
+.btn-buy:hover {
+    background-color: darkgreen;
+}
+
+.commit ul li {
+    margin: 10px 0;
+}
